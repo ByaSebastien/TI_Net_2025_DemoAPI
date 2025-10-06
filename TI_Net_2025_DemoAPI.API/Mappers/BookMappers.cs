@@ -7,17 +7,33 @@ namespace TI_Net_2025_DemoAPI.API.Mappers
     {
         public static BookIndexDto ToBookIndexDto(this Book book)
         {
-            return new BookIndexDto();
+            return new BookIndexDto()
+            {
+                Id = book.Id,
+                Title = book.Title,
+                Release = book.Release,
+            };
         }
 
         public static BookDetailsDto ToBookDetailsDto(this Book book)
         {
-            return new BookDetailsDto();
+            return new BookDetailsDto()
+            {
+                Id = book.Id,
+                Title = book.Title,
+                Description = book.Description,
+                Release = book.Release,
+            };
         }
 
         public static Book ToBook(this BookFormDto form)
         {
-            return new Book();
+            return new Book()
+            {
+                Title = form.Title,
+                Description = form.Description,
+                Release = form.Release,
+            };
         }
     }
 }

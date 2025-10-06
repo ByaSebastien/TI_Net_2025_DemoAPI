@@ -2,5 +2,8 @@
 {
     public class BookIndexDto
     {
+        public long Id { get; set; }
+        public string Title { get; set; } = null!;
+        public DateOnly Release {  get; set; }
     }
 }
