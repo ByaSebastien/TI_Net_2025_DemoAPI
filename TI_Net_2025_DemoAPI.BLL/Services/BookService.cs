@@ -7,12 +7,11 @@ namespace TI_Net_2025_DemoAPI.BLL.Services
     {
         public Book Add(Book book)
         {
-            throw new NotImplementedException();
+            return new Book();
         }
 
         public void Delete(long id)
         {
-            throw new NotImplementedException();
         }
 
         public Book GetBook(long id)
