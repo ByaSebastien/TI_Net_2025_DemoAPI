@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TI_Net_2025_DemoAPI.DAL\TI_Net_2025_DemoAPI.DAL.csproj" />
+    <ProjectReference Include="..\TI_Net_2025_DemoAPI.DL\TI_Net_2025_DemoAPI.DL.csproj" />
+  </ItemGroup>
+
 </Project>

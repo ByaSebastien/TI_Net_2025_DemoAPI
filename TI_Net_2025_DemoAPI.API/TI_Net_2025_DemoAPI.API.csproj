@@ -11,7 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\TI_Net_2025_DemoAPI.BLL\TI_Net_2025_DemoAPI.BLL.csproj" />
+    <ProjectReference Include="..\TI_Net_2025_DemoAPI.DL\TI_Net_2025_DemoAPI.DL.csproj" />
+    <ProjectReference Include="..\TI_Net_2025_DemoAPI.IL\TI_Net_2025_DemoAPI.IL.csproj" />
   </ItemGroup>
 
 </Project>
