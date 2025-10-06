@@ -7,27 +7,27 @@ namespace TI_Net_2025_DemoAPI.BLL.Services
     {
         public Book Add(Book book)
         {
-            throw new NotImplementedException();
+            return null;
         }
 
         public void Delete(long id)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Deleted!");
         }
 
         public Book GetBook(long id)
         {
-            throw new NotImplementedException();
+            return new Book();
         }
 
         public IEnumerable<Book> GetBooks()
         {
-            throw new NotImplementedException();
+            return new List<Book>();
         }
 
         public void Update(long id, Book book)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Updated!");
         }
     }
 }
